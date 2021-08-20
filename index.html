@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FLYASIA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        font-family: "David Libre", sans-serif, arial;
+    }
+</style>
+<body>
+    <h1><b>FLYASIA Official Website</b></h1>
+
+    <div class="form-box">
+        <div class="radio-btn">
+            <input type="radio" class="btn" name="check" checked="checked">
+            <span>Roundtrip</span>
+            <input type="radio" class="btn" name="check">
+            <span>One Way</span>
+        </div>
+    </div>
+
+    <div class="booking-form">
+        <label>Depart from</label>
+        <input type="text" class="form-control" placeholder="City">
+        <label>Arrive at</label>
+        <input type="text" class="form-control" placeholder="City">
+    </div>
+
+    <div class="input">
+        <label>Departure date</label>
+        <input type="date" class="form-control select-date">
+    </div>
+
+    <div class="input">
+        <label>Return date</label>
+        <input type="date" class="form-control select-date">
+    </div>
+
+    <div class="input">
+        <button type="button" class="btn btn-primary flight">Show Flights</button>
+    </div>
+</body>
+</html>
